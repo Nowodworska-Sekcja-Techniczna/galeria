@@ -1,0 +1,21 @@
+body {
+  font-family: 'Maven Pro';
+  font-size: 28px;
+}
+
+.content {
+  height: 20%;
+}
+
+.inverted {
+  color: white;
+  background-color: #161616;
+}
+
+.head {
+  margin-top: 0;
+}
+
+.muted {
+  color: #aaaaaa;
+}
