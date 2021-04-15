@@ -1,15 +1,39 @@
 body {
-  font-family: 'Maven Pro';
-  font-size: 28px;
-}
-
-.content {
-  height: 20%;
-}
-
-.inverted {
-  color: white;
+  font-family: 'Lato', serif;
   background-color: #161616;
+  color: white;
+  margin: 0 auto;
+}
+
+@media(min-width: 1000px) {
+  body {
+    width: 1000px;
+    font-size: 28px;
+  }
+}
+
+.header {
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.header > h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.fotorama {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.st00peczka {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .head {

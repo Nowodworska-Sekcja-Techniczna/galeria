@@ -2,92 +2,84 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-
+    <title>Nowodworek ze zdjęć</title>
+    <!-- jQuerry -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
-
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
-
+    <!-- Fotorama -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
-<body class="inverted">
-<div class="content ui middle aligned inverted grid">
-    <div class="one column row">
-        <div class="center aligned column">
-            <h1 style="margin-bottom: 5px;">Dlaczego Nowodworek?</h1>
-            <h3 class="head muted">Shut up and look at these.</h3>
-        </div>
+<body>
+    <div class="header">
+        <h1>Dlaczego Nowodworek?</h1>
+        <h3 class="head muted">Shut up and look at these.</h3>
     </div>
-</div>
 
 
-<div class="fotorama"
-     data-allowfullscreen="true"
-     data-width="100%"
-     data-height="100%"
-     style="margin-left: 0%;">
-    <a href="images/705.jpg"><img src="images/t705.jpg"></a>
-    <a href="images/711.jpg"><img src="images/t711.jpg"></a>
-    <a href="images/712.jpg"><img src="images/t712.jpg"></a>
-    <a href="images/715.jpg"><img src="images/t715.jpg"></a>
-    <a href="images/716.jpg"><img src="images/t716.jpg"></a>
-    <a href="images/718.jpg"><img src="images/t718.jpg"></a>
-    <a href="images/719.jpg"><img src="images/t719.jpg"></a>
-    <a href="images/721.jpg"><img src="images/t721.jpg"></a>
-    <a href="images/725.jpg"><img src="images/t725.jpg"></a>
-    <a href="images/726.jpg"><img src="images/t726.jpg"></a>
-    <a href="images/731.jpg"><img src="images/t731.jpg"></a>
-    <a href="images/733.jpg"><img src="images/t733.jpg"></a>
-    <a href="images/735.jpg"><img src="images/t735.jpg"></a>
-    <a href="images/736.jpg"><img src="images/t736.jpg"></a>
-    <a href="images/740.jpg"><img src="images/t740.jpg"></a>
-    <a href="images/744.jpg"><img src="images/t744.jpg"></a>
-    <a href="images/752.jpg"><img src="images/t752.jpg"></a>
-    <a href="images/754.jpg"><img src="images/t754.jpg"></a>
-    <a href="images/757.jpg"><img src="images/t757.jpg"></a>
-    <a href="images/758.jpg"><img src="images/t758.jpg"></a>
-    <a href="images/759.jpg"><img src="images/t759.jpg"></a>
-    <a href="images/760.jpg"><img src="images/t760.jpg"></a>
-    <a href="images/761.jpg"><img src="images/t761.jpg"></a>
-    <a href="images/763.jpg"><img src="images/t763.jpg"></a>
-    <a href="images/771.jpg"><img src="images/t771.jpg"></a>
-    <a href="images/772.jpg"><img src="images/t772.jpg"></a>
-    <a href="images/780.jpg"><img src="images/t780.jpg"></a>
-    <a href="images/783.jpg"><img src="images/t783.jpg"></a>
-    <a href="images/790.jpg"><img src="images/t790.jpg"></a>
-    <a href="images/792.jpg"><img src="images/t792.jpg"></a>
-    <a href="images/794.jpg"><img src="images/t794.jpg"></a>
-    <a href="images/795.jpg"><img src="images/t795.jpg"></a>
-    <a href="images/800.jpg"><img src="images/t800.jpg"></a>
-    <a href="images/802.jpg"><img src="images/t802.jpg"></a>
-    <a href="images/806.jpg"><img src="images/t806.jpg"></a>
-    <a href="images/807.jpg"><img src="images/t807.jpg"></a>
-    <a href="images/811.jpg"><img src="images/t811.jpg"></a>
-    <a href="images/815.jpg"><img src="images/t815.jpg"></a>
-    <a href="images/819.jpg"><img src="images/t819.jpg"></a>
-    <a href="images/822.jpg"><img src="images/t822.jpg"></a>
-    <a href="images/827.jpg"><img src="images/t827.jpg"></a>
-    <a href="images/829.jpg"><img src="images/t829.jpg"></a>
-    <a href="images/830.jpg"><img src="images/t830.jpg"></a>
-    <a href="images/837.jpg"><img src="images/t837.jpg"></a>
-    <a href="images/839.jpg"><img src="images/t839.jpg"></a>
-    <a href="images/852.jpg"><img src="images/t852.jpg"></a>
-    <a href="images/860.jpg"><img src="images/t860.jpg"></a>
-    <a href="images/866.jpg"><img src="images/t866.jpg"></a>
-    <a href="images/868.jpg"><img src="images/t868.jpg"></a>
-</div>
-
-<div class="ui container" style="margin-top: 40px;">
-    <div class="ui grid">
-        <div class="one column row">
-            <div class="center aligned column">
-                <h5>Courtesy of Miłosz Łagan, Mikołaj Gazeel</h5>
-            </div>
-        </div>
+    <div class="fotorama"
+         data-allowfullscreen="true"
+         data-width="94%"
+         data-ratio="3/2"
+         data-keyboard="true">
+        <a href="images/705.jpg"><img src="images/t705.jpg"></a>
+        <a href="images/711.jpg"><img src="images/t711.jpg"></a>
+        <a href="images/712.jpg"><img src="images/t712.jpg"></a>
+        <a href="images/715.jpg"><img src="images/t715.jpg"></a>
+        <a href="images/716.jpg"><img src="images/t716.jpg"></a>
+        <a href="images/718.jpg"><img src="images/t718.jpg"></a>
+        <a href="images/719.jpg"><img src="images/t719.jpg"></a>
+        <a href="images/721.jpg"><img src="images/t721.jpg"></a>
+        <a href="images/725.jpg"><img src="images/t725.jpg"></a>
+        <a href="images/726.jpg"><img src="images/t726.jpg"></a>
+        <a href="images/731.jpg"><img src="images/t731.jpg"></a>
+        <a href="images/733.jpg"><img src="images/t733.jpg"></a>
+        <a href="images/735.jpg"><img src="images/t735.jpg"></a>
+        <a href="images/736.jpg"><img src="images/t736.jpg"></a>
+        <a href="images/740.jpg"><img src="images/t740.jpg"></a>
+        <a href="images/744.jpg"><img src="images/t744.jpg"></a>
+        <a href="images/752.jpg"><img src="images/t752.jpg"></a>
+        <a href="images/754.jpg"><img src="images/t754.jpg"></a>
+        <a href="images/757.jpg"><img src="images/t757.jpg"></a>
+        <a href="images/758.jpg"><img src="images/t758.jpg"></a>
+        <a href="images/759.jpg"><img src="images/t759.jpg"></a>
+        <a href="images/760.jpg"><img src="images/t760.jpg"></a>
+        <a href="images/761.jpg"><img src="images/t761.jpg"></a>
+        <a href="images/763.jpg"><img src="images/t763.jpg"></a>
+        <a href="images/771.jpg"><img src="images/t771.jpg"></a>
+        <a href="images/772.jpg"><img src="images/t772.jpg"></a>
+        <a href="images/780.jpg"><img src="images/t780.jpg"></a>
+        <a href="images/783.jpg"><img src="images/t783.jpg"></a>
+        <a href="images/790.jpg"><img src="images/t790.jpg"></a>
+        <a href="images/792.jpg"><img src="images/t792.jpg"></a>
+        <a href="images/794.jpg"><img src="images/t794.jpg"></a>
+        <a href="images/795.jpg"><img src="images/t795.jpg"></a>
+        <a href="images/800.jpg"><img src="images/t800.jpg"></a>
+        <a href="images/802.jpg"><img src="images/t802.jpg"></a>
+        <a href="images/806.jpg"><img src="images/t806.jpg"></a>
+        <a href="images/807.jpg"><img src="images/t807.jpg"></a>
+        <a href="images/811.jpg"><img src="images/t811.jpg"></a>
+        <a href="images/815.jpg"><img src="images/t815.jpg"></a>
+        <a href="images/819.jpg"><img src="images/t819.jpg"></a>
+        <a href="images/822.jpg"><img src="images/t822.jpg"></a>
+        <a href="images/827.jpg"><img src="images/t827.jpg"></a>
+        <a href="images/829.jpg"><img src="images/t829.jpg"></a>
+        <a href="images/830.jpg"><img src="images/t830.jpg"></a>
+        <a href="images/837.jpg"><img src="images/t837.jpg"></a>
+        <a href="images/839.jpg"><img src="images/t839.jpg"></a>
+        <a href="images/852.jpg"><img src="images/t852.jpg"></a>
+        <a href="images/860.jpg"><img src="images/t860.jpg"></a>
+        <a href="images/866.jpg"><img src="images/t866.jpg"></a>
+        <a href="images/868.jpg"><img src="images/t868.jpg"></a>
     </div>
-</div>
+
+    <div class="st00peczka">
+        <h6>Courtesy of <a class="link" href="http://firebite.me">Miłosz Łagan</a><a class="link" href="http://mc.firebite.me"> & </a><a class="link" href="http://22h49.me">Mikołaj Gazeel</a></h6>
+    </div>
 </body>
 </html>
