@@ -3,22 +3,21 @@ body {
   background-color: #161616;
   color: white;
   height: 100%;
-  margin: 0;
-}
-
-.content {
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 @media(min-width: 1000px) {
-  .content {
+  body {
     width: 1000px;
     font-size: 28px;
   }
 }
 
 @media(min-width: 1200px) {
-  .content {
+  body {
     width: 1200px;
     font-size: 32px;
   }
@@ -40,9 +39,6 @@ body {
 }
 
 .st00peczka {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
   text-align: center;
 }
 
