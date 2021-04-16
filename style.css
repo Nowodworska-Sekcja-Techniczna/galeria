@@ -25,12 +25,12 @@ body {
 
 .header {
   text-align: center;
-  padding: 50px 10px 70px 10px;
+  padding: 50px 10px 10px 10px;
 }
 
-.header > h1 {
+.header > h2 {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .fotorama {
@@ -40,6 +40,11 @@ body {
 
 .st00peczka {
   text-align: center;
+  font-size: 15pt;
+}
+
+.st00peczka > h6 {
+  margin: 13px 0 13px 0;
 }
 
 .link {
